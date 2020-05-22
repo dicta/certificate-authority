@@ -1,0 +1,4 @@
+This folder contains configuration data specific to a domain's
+SSH Certificate Authority configuration. When populated with
+actual secret data, this folder should exist as secrets/
+relative to the repository root.
