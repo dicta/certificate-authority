@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+    certificate-authority:
+        image: step-ca:latest
+        ports: ["3000:443"]
+        stdin_open: true
+        tty: true
+        volumes:
+        - /srv/certificate-authority/data:/ca
+        - /srv/certificate-authority/secrets:/ca-secrets

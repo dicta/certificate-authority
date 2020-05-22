@@ -1,0 +1,8 @@
+# configuration (Google Suite authentication)
+OIDC_CLIENT_ID="123"
+OIDC_CLIENT_SECRET="abcdef"
+GSUITE_DOMAIN="example.com"
+CA_IP_ADDR="127.0.0.1"
+CA_HOSTNAME="localhost"
+CA_NAME="sshca-example"
+CA_ADMIN_EMAIL="admin@example.com"
